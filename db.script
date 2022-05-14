@@ -1,0 +1,10 @@
+CREATE TABLE `employee` (
+  `id` varchar(255) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `phone` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`));
+
+INSERT INTO `vision`.`employee`
+(`id`,`email`,`name`,`phone`)
+VALUES ('1','noor@gmail.com','noor','011');
